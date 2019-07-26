@@ -52,11 +52,7 @@ if (token && username) {
 
     }
   })
-<<<<<<< HEAD
   if (history.location.pathname === '/login' || history.location.pathname === '/') {
-=======
-  if (history.location.pathname === '/auth' || history.location.pathname === '/') {
->>>>>>> f2c147d6023e259d7b4a91ddafc2f69231ec652a
     renderApp()
     history.push('/home')
   } else {

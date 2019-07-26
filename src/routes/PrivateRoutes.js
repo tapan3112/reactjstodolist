@@ -14,10 +14,14 @@ export const PrivateRoute = ({
         </div>
       ) : (
 <<<<<<< HEAD
+<<<<<<< HEAD
           <Redirect to="/login" />
 =======
           <Redirect to="/auth" />
 >>>>>>> f2c147d6023e259d7b4a91ddafc2f69231ec652a
+=======
+          <Redirect to="/auth" />
+>>>>>>> c39da907226494e5999be1745e2494f1ba3d1349
         )
     )} />
   );
