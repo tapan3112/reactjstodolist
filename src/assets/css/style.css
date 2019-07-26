@@ -1,0 +1,62 @@
+.lds-dual-ring {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 66px;
+  height: 66px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #0db2f5;
+  border-color: #0db2f5 transparent #0db2f5 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.auth-main-block {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+.auth-login,
+.auth-signup {
+  margin-top: 50px;
+}
+
+.home-add-button {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.home-list-todo {
+  margin: 20px;
+}
+
+.home-list-todo-col {
+  margin-bottom: 20px;
+}
+
+.home-list-todo-button {
+  margin: 0px 4px;
+  display: inline-block;
+}
